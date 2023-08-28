@@ -153,12 +153,12 @@ h1 {
 .Check input:checked::before{
     content: '✔';
     position: absolute;
-    color: var(--dk-text);
+    color: black;
     font-size: 1.05rem;
     font-style: 600;
     left: 50%;
     top: 3.5px;
-    transform: translateX(-50%) translateY(40%);
+    transform: translateX(-50%) translateY(-30%);
 }
 .Check label{
     color: var(--pl-white);
